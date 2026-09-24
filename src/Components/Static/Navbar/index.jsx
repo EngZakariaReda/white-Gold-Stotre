@@ -15,7 +15,7 @@ export default function Navbar({setIsOpen}) {
         </button>
         
         <Link to={"/"}>
-          <img src="src/assets/whitegold.jpeg" alt="logo image" className="w-10 h-10 md:w-15 md:h-15 object-cover rounded-full" />
+          <img src="public/whitegold.jpeg" alt="logo image" className="w-10 h-10 md:w-15 md:h-15 object-cover rounded-full" />
         </Link>
 
         <h2 className="text-(--secondary-text) md:text-2xl font-extrabold">

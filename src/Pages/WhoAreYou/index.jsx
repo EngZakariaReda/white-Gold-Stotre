@@ -27,7 +27,7 @@ export default function WhoAreYou() {
             </p>
 
             <div className='bg-(--backgroundcard) p-3 md:w-120 w-full overflow-hidden border border-(--primary) mx-auto relative'>
-              <img src="src/assets/factory.png" alt="factory img" className='w-full h-100 object-cover hover:scale-110 transition-transform duration-300 ease-in-out' />
+              <img src="public/factory.png" alt="factory img" className='w-full h-100 object-cover hover:scale-110 transition-transform duration-300 ease-in-out' />
               
               <div className='bg-(--lighterbackground) p-3 absolute w-[90%] translate-y-[-25%] bottom-0 left-[50%] translate-x-[-50%]'>
                 <div className='flex justify-between items-center'>
