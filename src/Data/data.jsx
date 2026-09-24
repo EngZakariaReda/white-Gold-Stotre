@@ -206,7 +206,7 @@ export const homeTshirtPantalon = [
     description: "قصتنا الفريدة تجمع بين الأصالة والرقي، لنقدم لك تجربة تفصيلية تعكس ذوقك في أرقى صوره. نصنع لك البناطيل بأجود الخامات العالمية.",
     types: "تشينو • رسمي • كارجو",
     link: "اكتشف التفاصيل",
-    image: "public/pantlon.png" ,
+    image: "/pantlon.png" ,
     positionText:"خط انتاج معتمد",
   },
   {
@@ -215,7 +215,7 @@ export const homeTshirtPantalon = [
     description: "أوزان نسيج متعددة GSM، تشطيبات ناعمة مقاومة للانكماش، ومعالجات صباغة متطورة تحافظ على ثبات اللون لسنوات.",
     types: "أوفرسايز • بولو • بيزك",
     link: "استكشف التيشرتات  ",
-    image: "public/tshirt.png",
+    image: "/tshirt.png",
     positionText:" الوان طبيعيه 100% ",
   }
 ];

@@ -50,7 +50,7 @@ export default function CustomizeOrder() {
         <div className="flex flex-col gap-1">
             <p className="text-(--secondary-text)"> دقة الملمس والتنفيذ </p>
             <h2 className="text-2xl font-bold text-white"> معايير النسيج والتشطيب الفاخر </h2>
-            <img src="public/customize.png" alt="customize photo" className='w-full h-70 object-cover mt-5'/>
+            <img src="/customize.png" alt="customize photo" className='w-full h-70 object-cover mt-5'/>
         </div>
 
         <div className='bg-(--backgroundcard) p-2 mt-0'>

@@ -8,7 +8,7 @@ export default function Sidebar({isOpen , setIsOpen}) {
 
             <div className="flex gap-3 items-center justify-between border border-b-(--secondary) py-3">
                 <div className="flex gap-3 items-center">
-                    <img src="src/assets/whitegold.jpeg" alt="logo image" className="w-15 h-15 object-cover rounded-full" />
+                    <img src="/whitegold.jpeg" alt="logo image" className="w-15 h-15 object-cover rounded-full" />
                     <h2 className="text-(--secondary-text)  text-xl font-extrabold">White Gold</h2>
                 </div>
                 <button className='bg-transparent cursor-pointer' onClick={() => setIsOpen(!isOpen)}>

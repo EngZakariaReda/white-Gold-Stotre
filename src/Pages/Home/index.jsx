@@ -170,7 +170,7 @@ export default function Home() {
 
           <div className='flex flex-col gap-3 px-2 relative'>
 
-            <img src="public/homefactory.png" alt="homefactory photo" className='w-full h-70 object-cover mt-5'/>
+            <img src="/homefactory.png" alt="homefactory photo" className='w-full h-70 object-cover mt-5'/>
 
             <p className="text-(--secondary-text) text-sm">
               فلسفتنا في الصناعة

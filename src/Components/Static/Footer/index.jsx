@@ -10,7 +10,7 @@ export default function Footer() {
             <div className='space-y-4 flex-1'>
                 <div className="flex gap-3 items-center">
                     <Link to={"/"}>
-                        <img src="public/whitegold.jpeg" alt="logo image" className="w-10 h-10 md:w-15 md:h-15 object-cover rounded-full" />
+                        <img src="/whitegold.jpeg" alt="logo image" className="w-10 h-10 md:w-15 md:h-15 object-cover rounded-full" />
                     </Link>
                     <div>
                         <h2 className="text-(--secondary-text) md:text-2xl font-extrabold">
