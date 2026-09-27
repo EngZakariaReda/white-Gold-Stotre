@@ -27,17 +27,17 @@ export default function CustomizeOrder() {
         <div className='bg-(--lighterbackground) flex justify-center mt-5 gap-3'>
           <div className='bg-(--backgroundcard) flex-1 p-3 border border-[#FFFFFF]'>
             <p className='text-(--secondary-card)'>الحد الأدنى</p>
-            <p className='text-(--secondary-text) text-2xl font-extrabold'>100 قطعة</p>
+            <p className='text-(--secondary-text) text-[16px] sm:text-2xl font-extrabold'>100 قطعة</p>
           </div>
            
           <div className='bg-(--backgroundcard) flex-1 p-3 border border-[#FFFFFF]'>
             <p className='text-(--secondary-card)'> مدة العينة</p>
-            <p className='text-white text-2xl font-extrabold'>5 - 7 أيام</p>
+            <p className='text-white text-[16px] sm:text-2xl font-extrabold'>5 - 7 أيام</p>
           </div>
            
           <div className='bg-(--backgroundcard) flex-1 p-3 border border-[#FFFFFF]'>
             <p className='text-(--secondary-card)'> دقة القياس</p>
-            <p className='text-(--secondary-text) text-2xl font-extrabold'>99.8%</p>
+            <p className='text-(--secondary-text) text-[16px] sm:text-2xl font-extrabold'>99.8%</p>
           </div>
         </div>
 

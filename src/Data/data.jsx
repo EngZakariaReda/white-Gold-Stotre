@@ -352,3 +352,25 @@ export const products = [
     image: "/product.png",
   },
 ];
+
+export const productColors = [
+    { name: "أسود", value: "#292A2D" },
+    { name: "بيج", value: "#BCA383" },
+    { name: "زيتي داكن", value: "#172118" },
+    { name: "كحلي", value: "#111622" },
+];
+
+export const productSizes = [
+  { name: "S", value: "S" },
+  { name: "M", value: "M" },
+  { name: "L", value: "L" },
+  { name: "XL", value: "XL" },
+  { name: "XXL", value: "XXL" },
+  { name: "3XL", value: "3XL" },
+];
+
+export const productQuantities = [
+  50,
+  100,
+  200,
+];

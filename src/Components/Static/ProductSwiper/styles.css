@@ -1,0 +1,30 @@
+.mySwiper2{
+  position: relative;
+}
+.swiper-button-next, .swiper-button-prev {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--secondary-text) !important;
+  background-color: var(--body) !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  border: 2px solid var(--secondary);
+}
+
+.swiper-button-prev {
+  left: 10px !important;
+  right: auto !important;
+}
+
+.swiper-button-next {
+  right: 10px !important;
+  left: auto !important;
+}
+.swiper-navigation-icon {
+  width: 15px !important;
+}

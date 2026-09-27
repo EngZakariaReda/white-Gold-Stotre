@@ -45,7 +45,7 @@ export default function Products() {
             <div className="h-full w-15 flex items-center justify-center">
               <Search size={35}/>
             </div>
-            <input onChange={handleChange} value={query} type="search" placeholder="ابحث عن منتج ..." className="flex-1 p-2 text-2xl h-full border-0 outline-0"/>
+            <input onChange={handleChange} value={query} type="search" placeholder="ابحث عن منتج ..." className="flex-1 min-w-0 p-2 text-2xl h-full border-0 outline-0"/>
           </div>
 
           <div className="flex gap-5 px-2 items-center my-5">

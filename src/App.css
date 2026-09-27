@@ -26,6 +26,7 @@ a{
 body{
   font-family: sans-serif;
   background-color: var(--body);
+  /* overflow-x: hidden; */
 }
 label{
   font-family: sans-serif;

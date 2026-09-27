@@ -8,7 +8,7 @@ import { sendMessageViaWattsApp } from '../../Utils/SendMessage'
 export default function Contact() {
   return (
     <>
-      <section className='px-2 py-5'>
+      <section className='px-2 py-10'>
         <div className='flex flex-col gap-3'>
           <StatusCard>
             خطوط الإنتاج والتوريد مفتوحة  
@@ -69,13 +69,13 @@ export default function Contact() {
                  تواصل معنا عبر واتساب    
           </Button>
 
-          <div className="text-(--secondary-card) flex items-center justify-between"> 
-            <p className='flex items-center gap-2'>
+          <div className="text-(--secondary-card) flex flex-col sm:flex-row sm:items-center justify-between"> 
+            <p className='flex-1 flex items-center gap-2'>
               <span className='bg-green-500 w-2 h-2 border-full rounded-full'></span>
               متوسط سرعة الرد: أقل من 15 دقيقة
             </p> 
 
-            <p className='flex items-center gap-3'>
+            <p className='flex-1 flex items-center gap-3'>
               دعم فني وتنسيق  
             </p> 
           </div>

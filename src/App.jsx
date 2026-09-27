@@ -1,5 +1,4 @@
 import './App.css'
-import './index.css'
 import AppRoutes from './Routes'
 
 function App() {

@@ -15,7 +15,7 @@ export default function Home() {
           منظومة إنتاج راقية 
         </StatusCard>
 
-        <h2 className="text-3xl font-extrabold text-white flex gap-2">
+        <h2 className="text-3xl font-extrabold text-white flex gap-2 sm:flex-row flex-col">
            تصنيع ملابس بجودة 
           <span className="text-(--secondary-text) ">
             تليق بعلامتك
@@ -28,12 +28,12 @@ export default function Home() {
 
         <div className="flex gap-5 items-center">
            <Link to={"/allproducts"} >
-            <Button className='text-black bg-(--primary)'>
-              استكشف منتجاتنا
-                <span>
-                  <MoveDown />
-                </span>
-            </Button>
+              <Button className='text-black sm:text-lg text-sm bg-(--primary)'>
+                استكشف منتجاتنا
+                  <span>
+                    <MoveDown />
+                  </span>
+              </Button>
            </Link>
 
            <a 
@@ -94,7 +94,7 @@ export default function Home() {
                     {item.description}
                   </p>
 
-                  <Link to={"/product"} className="flex gap-2 items-center text-(--secondary-text)" >
+                  <Link to={"/allproducts"} className="flex gap-2 items-center text-(--secondary-text)" >
                     {item.link}
                     <MoveLeft />
                   </Link>
@@ -189,9 +189,12 @@ export default function Home() {
             </span>
           </div>
 
-          <span className="text-(--secondary-text) mt-3 inline-flex items-center gap-2 border-b border-b-(--secondary-text) p-2">
+          <span className="text-(--secondary-text) mt-3">
+            <Link to={"/whoareyou"} className="flex w-fit items-center gap-2 border-b border-b-(--secondary-text) p-2">
+            
               تعرف علينا أكثر وعقد شراكة
               <MoveUpRight />
+            </Link>
           </span>
 
         </div>
